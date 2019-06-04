@@ -1,0 +1,208 @@
+{
+    "editable": true,
+    "fileExtensions": [
+        "rs"
+    ],
+    "focusedItemRef": "120c0d70-871a-11e9-88e7-692726f7291c",
+    "images": [],
+    "maxNumberOfFiles": 500,
+    "name": "zcash_primitives Documentation",
+    "notes": [
+        {
+            "items": [
+                {
+                    "content": "",
+                    "ref": "a79f7c10-8719-11e9-88e7-692726f7291c",
+                    "settings": {},
+                    "type": "text"
+                },
+                {
+                    "content": null,
+                    "ref": "8fd9f970-8719-11e9-88e7-692726f7291c",
+                    "settings": {
+                        "linesAfter": 3,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "ThTb2"
+                    },
+                    "type": "code"
+                },
+                {
+                    "content": null,
+                    "ref": "bf95f9c0-8719-11e9-88e7-692726f7291c",
+                    "settings": {
+                        "linesAfter": 3,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "RE5N7"
+                    },
+                    "type": "code"
+                }
+            ],
+            "ref": "47c52310-870c-11e9-88da-b15bdd5d56f8",
+            "settings": {},
+            "title": "Personalization Strings"
+        },
+        {
+            "items": [
+                {
+                    "content": null,
+                    "ref": "cd881310-8719-11e9-88e7-692726f7291c",
+                    "settings": {
+                        "linesAfter": 3,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "f44s9"
+                    },
+                    "type": "code"
+                }
+            ],
+            "ref": "4e30d050-870c-11e9-88da-b15bdd5d56f8",
+            "settings": {},
+            "title": "Generating esk"
+        },
+        {
+            "items": [
+                {
+                    "content": null,
+                    "ref": "da217a30-8719-11e9-88e7-692726f7291c",
+                    "settings": {
+                        "linesAfter": 3,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "qQMet"
+                    },
+                    "type": "code"
+                }
+            ],
+            "ref": "59602020-870c-11e9-88da-b15bdd5d56f8",
+            "settings": {},
+            "title": "Key Agreement"
+        },
+        {
+            "items": [
+                {
+                    "content": null,
+                    "ref": "e644ee00-8719-11e9-88e7-692726f7291c",
+                    "settings": {
+                        "linesAfter": 3,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "2yHc7"
+                    },
+                    "type": "code"
+                }
+            ],
+            "ref": "60e860f0-870c-11e9-88da-b15bdd5d56f8",
+            "settings": {},
+            "title": "KDF"
+        },
+        {
+            "items": [
+                {
+                    "content": null,
+                    "ref": "f03a3730-8719-11e9-88e7-692726f7291c",
+                    "settings": {
+                        "linesAfter": 3,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "BJPCd"
+                    },
+                    "type": "code"
+                }
+            ],
+            "ref": "6355de80-870c-11e9-88da-b15bdd5d56f8",
+            "settings": {},
+            "title": "PRF_ock"
+        },
+        {
+            "items": [
+                {
+                    "content": null,
+                    "ref": "01053a10-871a-11e9-88e7-692726f7291c",
+                    "settings": {
+                        "linesAfter": 3,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "5UlQs"
+                    },
+                    "type": "code"
+                },
+                {
+                    "content": null,
+                    "ref": "120c0d70-871a-11e9-88e7-692726f7291c",
+                    "settings": {
+                        "linesAfter": 3,
+                        "linesBefore": 0,
+                        "showIndicator": false,
+                        "syntaxAuto": true,
+                        "token": "JxMCW"
+                    },
+                    "type": "code"
+                }
+            ],
+            "ref": "6a754b60-870c-11e9-88da-b15bdd5d56f8",
+            "settings": {},
+            "title": "Note Encryption & Decryption"
+        }
+    ],
+    "path": "/home/firexware/zcash/librustzcash/zcash_primitives/Documentation.codestory",
+    "pinnedFiles": [],
+    "roots": [
+        {
+            "accessible": true,
+            "base": "/home/firexware/zcash/librustzcash/zcash_primitives",
+            "excludeDirs": [
+                "node_modules"
+            ],
+            "fullPath": "/home/firexware/zcash/librustzcash/zcash_primitives",
+            "id": "5c7cb450-870a-11e9-aa82-b9f9b98c2529",
+            "name": "zcash_primitives",
+            "path": ""
+        }
+    ],
+    "toc": {
+        "items": [
+            {
+                "children": [
+                    {
+                        "ref": "47c52310-870c-11e9-88da-b15bdd5d56f8",
+                        "type": "note"
+                    },
+                    {
+                        "ref": "4e30d050-870c-11e9-88da-b15bdd5d56f8",
+                        "type": "note"
+                    },
+                    {
+                        "ref": "59602020-870c-11e9-88da-b15bdd5d56f8",
+                        "type": "note"
+                    },
+                    {
+                        "ref": "60e860f0-870c-11e9-88da-b15bdd5d56f8",
+                        "type": "note"
+                    },
+                    {
+                        "ref": "6355de80-870c-11e9-88da-b15bdd5d56f8",
+                        "type": "note"
+                    },
+                    {
+                        "ref": "6a754b60-870c-11e9-88da-b15bdd5d56f8",
+                        "type": "note"
+                    }
+                ],
+                "title": "Note Encryption",
+                "type": "section"
+            }
+        ],
+        "selectedNotes": [
+            "70217930-870c-11e9-88da-b15bdd5d56f8"
+        ]
+    }
+}

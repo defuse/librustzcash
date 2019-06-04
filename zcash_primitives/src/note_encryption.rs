@@ -19,9 +19,9 @@ use std::str;
 
 use crate::{keys::OutgoingViewingKey, JUBJUB};
 
-//DOC:ZP:OgWNfu810kUH
+// #ThTb2#
 pub const KDF_SAPLING_PERSONALIZATION: &'static [u8; 16] = b"Zcash_SaplingKDF";
-//DOC:ZP:7Buk5lYNz0Rg
+// #RE5N7#
 pub const PRF_OCK_PERSONALIZATION: &'static [u8; 16] = b"Zcash_Derive_ock";
 
 const COMPACT_NOTE_SIZE: usize = (
@@ -138,7 +138,7 @@ impl Memo {
     }
 }
 
-//DOC:ZP:9wbsF-McWWvb
+//#f44s9#
 fn generate_esk() -> Fs {
     // create random 64 byte buffer
     let mut rng = OsRng::new().expect("should be able to construct RNG");
@@ -154,7 +154,7 @@ fn generate_esk() -> Fs {
 /// Sapling key agreement for note encryption.
 ///
 /// Implements section 5.4.4.3 of the Zcash Protocol Specification.
-//DOC:ZP:yPWO7VlEy9dN
+//#qQMet#
 pub fn sapling_ka_agree<'a, P>(esk: &Fs, pk_d: &'a P) -> [u8; 32]
 where
     edwards::Point<Bls12, Unknown>: From<&'a P>,
@@ -176,7 +176,7 @@ where
 /// Sapling KDF for note encryption.
 ///
 /// Implements section 5.4.4.4 of the Zcash Protocol Specification.
-//DOC:ZP:c4tU-SyDQDRB
+//#2yHc7#
 fn kdf_sapling(dhsecret: &[u8], epk: &edwards::Point<Bls12, PrimeOrder>) -> Blake2bResult {
     let mut input = [0u8; 64];
     input[0..32].copy_from_slice(&dhsecret);
@@ -190,7 +190,7 @@ fn kdf_sapling(dhsecret: &[u8], epk: &edwards::Point<Bls12, PrimeOrder>) -> Blak
 /// Sapling PRF^ock.
 ///
 /// Implemented per section 5.4.2 of the Zcash Protocol Specification.
-//DOC:ZP:7Buk5lYNz0Rg
+//#BJPCd#
 fn prf_ock(
     ovk: &OutgoingViewingKey,
     cv: &edwards::Point<Bls12, Unknown>,
@@ -326,7 +326,7 @@ impl SaplingNoteEncryption {
     }
 
     /// Generates `outCiphertext` for this note.
-    //DOC:ZP:LhYxlfiKG4RP
+    //#5UlQs#
     pub fn encrypt_outgoing_plaintext(
         &self,
         cv: &edwards::Point<Bls12, Unknown>,
@@ -394,7 +394,7 @@ fn parse_note_plaintext_minus_memo(
 /// `PaymentAddress` to which the note was sent.
 ///
 /// Implements section 4.17.2 of the Zcash Protocol Specification.
-//DOC:ZP:L-9nrnp8oDEE
+//#JxMCW#
 pub fn try_sapling_note_decryption(
     ivk: &Fs,
     epk: &edwards::Point<Bls12, PrimeOrder>,
