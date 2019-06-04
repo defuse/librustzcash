@@ -190,7 +190,7 @@ fn kdf_sapling(dhsecret: &[u8], epk: &edwards::Point<Bls12, PrimeOrder>) -> Blak
 /// Sapling PRF^ock.
 ///
 /// Implemented per section 5.4.2 of the Zcash Protocol Specification.
-//DOC:ZP:86fuk94U6I5q
+//DOC:ZP:7Buk5lYNz0Rg
 fn prf_ock(
     ovk: &OutgoingViewingKey,
     cv: &edwards::Point<Bls12, Unknown>,
