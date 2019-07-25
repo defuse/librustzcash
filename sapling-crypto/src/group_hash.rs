@@ -53,11 +53,7 @@ mod test {
     };
 
     use ff::{
-        Field,
         PrimeField,
-        PrimeFieldRepr,
-        SqrtField,
-        LegendreSymbol
     };
 
 
