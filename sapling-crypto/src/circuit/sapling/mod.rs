@@ -730,7 +730,7 @@ fn test_input_circuit_with_bls12_381() {
 
 #[test]
 fn test_input_circuit_with_bls12_381_external_test_vectors() {
-    use pairing::{Field, BitIterator};
+    use ff::{Field, BitIterator};
     use pairing::bls12_381::*;
     use rand::{SeedableRng, Rng, XorShiftRng};
     use ::circuit::test::*;

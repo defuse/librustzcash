@@ -52,7 +52,7 @@ mod test {
         Fr,
     };
 
-    use pairing::{
+    use ff::{
         Field,
         PrimeField,
         PrimeFieldRepr,
