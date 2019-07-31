@@ -4,6 +4,9 @@ rust:
   - 1.36.0
 
 addons:
+  artifacts:
+    paths:
+      - $(find ci/artifacts | tr "\n" ":")
   apt:
     sources:
      - sourceline: 'deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial main'
