@@ -4,6 +4,9 @@ rust:
   - 1.36.0
 
 addons:
+  # In order for artifact uploading to work, you must configure environment
+  # variables in Travis-CI settings. See here:
+  # https://docs.travis-ci.com/user/uploading-artifacts/
   artifacts:
     paths:
       - $(find ci/artifacts | tr "\n" ":")
